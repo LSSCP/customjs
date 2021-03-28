@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name        New script - dmhy.org
+// @name        copy magnet2 from dmhy.org
 // @namespace   Violentmonkey Scripts
 // @match       https://share.dmhy.org/topics/view/*
 // @grant       GM_setClipboard
-// @version     1.0
+// @version     1.1
 // @author      -
 // @description 3/28/2021, 10:44:20 PM
 // ==/UserScript==
