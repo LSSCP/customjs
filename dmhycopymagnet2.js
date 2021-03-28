@@ -1,12 +1,13 @@
 // ==UserScript==
-// @name        copy magnet2 from dmhy.org
+// @name        New script - dmhy.org
 // @namespace   Violentmonkey Scripts
-// @match       https://share.dmhy.org/topics/view/*
+// @match       *://share.dmhy.org/topics/view/*
 // @grant       GM_setClipboard
-// @version     1.11
+// @version     1.2
 // @author      -
 // @description 3/28/2021, 10:44:20 PM
 // ==/UserScript==
 
-let btMagDownloadLink = document.querySelector('#magnet2').innerText;
-GM_setClipboard(btMagDownloadLink,'text/plain');
+
+let magnet2DownloadLink = document.getElementById('magnet2').href;
+GM_setClipboard(magnet2DownloadLink,'text/plain');
